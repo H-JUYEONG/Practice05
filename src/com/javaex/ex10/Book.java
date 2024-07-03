@@ -56,9 +56,9 @@ public class Book {
 
 	public void print() {
 		if (this.stateCode == 1) {
-			System.out.println(this.bookNo + " 책 제목:" + this.title + ", 작가:" + this.author + ", 대여유무: 재고있음");
+			System.out.println(this.bookNo + " 책 제목:" + this.title + ", 작가:" + this.author + ", 대여유무:재고있음");
 		} else {
-			System.out.println(this.bookNo + " 책 제목:" + this.title + ", 작가:" + this.author + ", 대여유무: 대여중");
+			System.out.println(this.bookNo + " 책 제목:" + this.title + ", 작가:" + this.author + ", 대여유무:대여중");
 		}
 	}
 
