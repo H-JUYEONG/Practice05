@@ -55,7 +55,6 @@ public class BookShop {
 		case 9:
 			books[8].rent();
 			break;
-
 		default:
 			books[9].rent();
 			break;
