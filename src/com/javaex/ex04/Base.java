@@ -3,9 +3,9 @@ package com.javaex.ex04;
 public class Base {
 
 	public void service(String state) {
-		if (state == "낮") {
+		if (state.equals("낮")) {
 			day();
-		} else if (state == "밤") {
+		} else if (state.equals("밤")) {
 			night();
 		} else {
 			afternoon();
