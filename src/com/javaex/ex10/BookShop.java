@@ -27,7 +27,9 @@ public class BookShop {
 
 		// (1) 입력된 번호에 맞는 책을 찾아 대여 되었음(상태코드=0)을 체크 합니다.
 		// 코드작성
-		switch (num) {
+		books[num-1].rent();
+		
+		/*switch (num) {
 		case 1:
 			books[0].rent();
 			break;
@@ -58,7 +60,7 @@ public class BookShop {
 		default:
 			books[9].rent();
 			break;
-		}
+		}*/
 
 		System.out.println("*****도서 정보 출력하기******");
 		displayBookInfo(books);
