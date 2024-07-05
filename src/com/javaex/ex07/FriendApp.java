@@ -23,7 +23,7 @@ public class FriendApp {
 		
 		// for문 시작
 		// 친구정보 3명 입력 로직 --> 반복문 사용
-		for (int i = 0; i < 3; i++) {
+		for (int i = 0; i < friendArray.length; i++) {
 			friendArray[i] = new Friend();
 			
 			System.out.print("이름: ");
